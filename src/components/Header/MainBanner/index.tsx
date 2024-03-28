@@ -6,10 +6,10 @@ import SvgCart from '../../../../public/svg/SvgCart.svg'
 
 const MainBanner = () => {
   return (
-    <div className="w-full bg-primary">
+    <div className="hidden md:block w-full bg-primary">
       <div
         id="mainBanner"
-        className="container flex justify-center md:justify-between items-center py-8"
+        className="px-10 md:px-20 flex justify-center md:justify-between items-center py-8"
       >
         <Button variant="outline hidden md:block">Call - 987 654 321</Button>
         <div className="">

@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         primary: '#292E36',
         yellowPrimay: '#E1B168',
+        grayPrimary: '#555555',
       },
     },
     container: {

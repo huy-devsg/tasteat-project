@@ -6,8 +6,8 @@ import HeroIntro from './HeroIntro'
 const HeroBanner = () => {
   return (
     <div className="bg-primary w-full">
-      <div className=" container flex flex-col-reverse  md:flex-row items-center justify-between pt-4">
-        <div id="bannerIntro" className="w-full md:w-1/2 py-8">
+      <div className="px-10 md:px-20 flex flex-col-reverse md:flex-row items-center justify-between pt-4">
+        <div id="bannerIntro" className="md:w-1/2 py-8">
           <HeroIntro />
         </div>
         <div id="heroImage" className="w-full md:w-1/2">
