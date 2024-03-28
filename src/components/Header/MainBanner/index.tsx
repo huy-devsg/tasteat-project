@@ -9,11 +9,11 @@ const MainBanner = () => {
     <div className="hidden md:block w-full bg-primary">
       <div
         id="mainBanner"
-        className="px-10 md:px-20 flex justify-center md:justify-between items-center py-8"
+        className="px-10  flex justify-center md:justify-between items-center py-8"
       >
         <Button variant="outline hidden md:block">Call - 987 654 321</Button>
         <div className="">
-          <Image src={SvgLogo} alt="" width={250} />
+          <Image src={SvgLogo} alt="" className="w-[200px] md:w-[250px]" />
         </div>
         <div className=" hidden md:block">
           <div className="flex">

@@ -5,10 +5,10 @@ import SvgPattern from '../../../../public/svg/SvgPattern.svg'
 const HeroImage = () => {
   return (
     <div className="flex flex-row">
-      <div className=" bg-[#3E434A] h-[500px] w-full rounded-tr-[50%] rounded-tl-[50%] p-4  relative z-10">
+      <div className="bg-[#3E434A] h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-tr-[50%] rounded-tl-[50%] p-4  relative z-10">
         <Image
           src={heroImage}
-          className="h-[500px]  object-fit absolute rounded-tr-[50%] rounded-tl-[50%] shadow-[0px_15px_10px_-13px_#000] z-10"
+          className="h-[300px] md:h-[400px] lg:h-[500px] object-fit absolute rounded-tr-[50%] rounded-tl-[50%] shadow-[0px_15px_10px_-13px_#000] z-10"
           style={{
             width: 'calc(100% - 2rem)',
           }}

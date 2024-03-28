@@ -34,8 +34,8 @@ const Navbar = () => {
     <nav className="bg-primary w-full">
       <div className="w-full bg-primary  md:border-y md:border-[#5C6168]">
         <div id="navBar" className="hidden md:block ">
-          <div className="px-10 md:px-20 flex justify-between items-center py-4 overflow-x-visible	">
-            <ul className="flex space-x-8">
+          <div className="px-10  flex justify-between items-center py-4 overflow-x-visible	">
+            <ul className="flex space-x-6">
               <li>
                 <Link href="#">Home</Link>
               </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden flex justify-between px-10 md:px-20 py-2">
+      <div className="md:hidden flex justify-between px-10  py-2">
         <div>
           <Image src={SvgLogo} alt="" width={120} />
         </div>

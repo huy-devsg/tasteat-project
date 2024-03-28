@@ -3,8 +3,8 @@ import React from 'react'
 
 const HeroIntro = () => {
   return (
-    <div className="p-10 text-center md:text-left">
-      <h1 className="text-[55px] text-white">Welcome to Restaurantate</h1>
+    <div className="text-center md:text-left">
+      <h1 className="text-[30px] sm:text-[50px] font-bold text-white">Welcome to Restaurantate</h1>
       <p className="py-6">
         {`Simply dummy text of the printing and typesetting industry. Lorem Ipsum
         has been the industry's standard dummy .`}
